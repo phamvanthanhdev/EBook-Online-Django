@@ -1,0 +1,1065 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Chào",
+        "Xin chào",
+        "Hello",
+        "Hi",
+        "Chào bạn"
+      ],
+      "responses": [
+        "Xin chào, tôi có thể giúp gì cho bạn ?",
+        "Hello, chào mừng đến với website của chúng tôi. Bạn có thể để lại câu hỏi chúng tôi sẽ giải đáp.",
+        "Chào bạn, tôi ở đây để giải quyết thắc mắc của bạn.",
+        "Chào, bạn cần giúp đỡ gì ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Chào tạm biệt"
+      ],
+      "responses": [
+        "Hẹn gặp lại bạn, cảm ơn đã ghé thăm",
+        "Chúc một ngày tốt lạnh",
+        "Tạm biệt bạn!",
+        "Mong sớm gặp lại bạn"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn rất nhiều",
+        "Cảm ơn bạn",
+        "Xin cảm ơn"
+      ],
+      "responses": [
+        "Rất vui vì đã giúp được bạn.",
+        "Không có gì, hi vọng nó hữu ích cho bạn.",
+        "Không có gì, nếu có thắc mắc hãy viết ra và tôi sẽ giúp đỡ bạn."
+      ]
+    },
+    {
+      "tag": "Gợi ý",
+      "patterns": [
+        "Gợi ý",
+        "Gợi ý sách",
+        "Tôi muốn Gợi ý sách",
+        "Gợi ý cho tôi về sách",
+        "Tôi muốn nhận gợi ý sách",
+        "Gợi ý sách cho tôi",
+        "Gợi ý sách theo nhu cầu"
+      ],
+      "responses": [
+        "Để gợi ý được chính xác vui lòng trả lời các câu hỏi sau của chúng tôi",
+        "Chúng tôi sẽ gợi ý sau khi bạn trả lời một vài câu hỏi theo sở thích của mình",
+        "Vui lòng trả lời một số câu hỏi sau đó chúng tôi sẽ gợi ý sách phù hợp với bạn"
+      ]
+    },
+    {
+      "tag": "Kết thúc gợi ý",
+      "patterns": [
+        "Kết thúc gợi ý",
+        "Kết thúc",
+        "Dừng gợi ý",
+        "Kết thúc quá trình gợi ý",
+        "Tôi muốn dừng gợi ý",
+        "Hãy dừng gợi ý",
+        "Tôi muốn kết thúc gợi ý"
+      ],
+      "responses": [
+        "Quá trình gợi ý kết thúc",
+        "Hệ thống đã kết thúc quá trình gợi ý",
+        "Kết thúc quá trình gợi ý thành công"
+      ]
+    },
+    {
+        "tag": "most view",
+        "patterns": [
+            "Sách có lượt xem nhiều nhất",
+            "Xem nhiều nhất",
+            "Số lượt xem cao nhất",
+            "Nhiều view nhất",
+            "Sách nào có lượt xem nhiều nhất"
+        ],
+        "responses": [
+            "Cuốn sách Tuổi thơ dữ dội có nhiều lượt xem nhất hiên tại.",
+            "Cuốn sách được xem nhiều nhất là Tuổi thơ dữ dội",
+            "Cuốn sách có nhiều view nhất Tuổi thơ dữ dội"
+        ]
+    },
+    {
+      "tag": "Cổ Tích Thần Thoại",
+      "patterns": [
+        "Cổ Tích Thần Thoại",
+        "Cổ Tích",
+        "Thần Thoại",
+        "Thể loại Cổ Tích Thần Thoại",
+        "Tôi muốn đọc Cổ Tích Thần Thoại",
+        "Tôi thích Cổ Tích Thần Thoại"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Cổ Tích Thần Thoại",
+        "Thể loại sẽ đề xuất là Cổ Tích Thần Thoại",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Cổ Tích Thần Thoại"]
+    },
+    {
+      "tag": "Tiểu thuyết",
+      "patterns": [
+        "Tiểu thuyết",
+        "Thể loại Tiểu thuyết",
+        "Tôi muốn đọc về thể loại Tiểu thuyết",
+        "Tôi thích sách Tiểu thuyết"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Tiểu thuyết",
+        "Thể loại sẽ đề xuất là Tiểu thuyết",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Tiểu thuyết"]
+    },
+    {
+      "tag": "Ẩm thực Nấu ăn",
+      "patterns": [
+        "Ẩm thực Nấu ăn",
+        "Ẩm thực",
+        "Nấu ăn",
+        "Thể loại Ẩm thực Nấu ăn",
+        "Tôi muốn đọc thể loại Ẩm thực Nấu ăn",
+        "Tôi thích sách Ẩm thực Nấu ăn"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Ẩm thực Nấu ăn",
+        "Thể loại sẽ đề xuất là Ẩm thực Nấu ăn",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Ẩm thực Nấu ăn"]
+    },
+    {
+      "tag": "Giáo trình Bài giảng",
+      "patterns": [
+        "Giáo trình Bài giảng",
+        "Giáo trình",
+        "Bài giảng",
+        "Thể loại Giáo trình Bài giảng",
+        "Tôi muốn đọc thể loại Giáo trình Bài giảng",
+        "Tôi thích sách Giáo trình Bài giảng"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Giáo trình Bài giảng",
+        "Thể loại sẽ đề xuất là Giáo trình Bài giảng",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Giáo trình Bài giảng"]
+    },
+    {
+      "tag": "Truyện ngắn",
+      "patterns": [
+        "Truyện ngắn",
+        "Thể loại Truyện ngắn",
+        "Tôi muốn đọc thể loại Truyện ngắn",
+        "Tôi thích sách Truyện ngắn"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Truyện ngắn",
+        "Thể loại sẽ đề xuất là Truyện ngắn",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Truyện ngắn"]
+    },
+    {
+      "tag": "Văn học nghệ thuật",
+      "patterns": [
+        "Văn học nghệ thuật",
+        "Văn học",
+        "Nghệ thuật",
+        "Thể loại Văn học nghệ thuật",
+        "Tôi muốn đọc thể loại Văn học nghệ thuật",
+        "Tôi thích sách Văn học nghệ thuật"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Văn học nghệ thuật",
+        "Thể loại sẽ đề xuất là Văn học nghệ thuật",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Văn học nghệ thuật"]
+    },
+    {
+      "tag": "Ngôn Tình",
+      "patterns": [
+        "Ngôn Tình",
+        "Thể loại Ngôn Tình",
+        "Tôi muốn đọc thể loại Ngôn Tình",
+        "Tôi thích sách Ngôn Tình"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Ngôn Tình",
+        "Thể loại sẽ đề xuất là Ngôn Tình",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Ngôn Tình"]
+    },
+    {
+      "tag": "Ngôn Tình",
+      "patterns": [
+        "Ngôn Tình",
+        "Thể loại Ngôn Tình",
+        "Tôi muốn đọc thể loại Ngôn Tình",
+        "Tôi thích sách Ngôn Tình"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Ngôn Tình",
+        "Thể loại sẽ đề xuất là Ngôn Tình",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Ngôn Tình"]
+    },
+    {
+      "tag": "Kinh dị",
+      "patterns": [
+        "Kinh dị",
+        "Thể loại Kinh dị",
+        "Tôi muốn đọc thể loại Kinh dị",
+        "Tôi thích sách Kinh dị"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Kinh dị",
+        "Thể loại sẽ đề xuất là Kinh dị",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Kinh dị"]
+    },
+    {
+      "tag": "Tiên Hiệp",
+      "patterns": [
+        "Tiên Hiệp",
+        "Thể loại Tiên Hiệp",
+        "Tôi muốn đọc thể loại Tiên Hiệp",
+        "Tôi thích sách Tiên Hiệp"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Tiên Hiệp",
+        "Thể loại sẽ đề xuất là Tiên Hiệp",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Tiên Hiệp"]
+    },
+    {
+      "tag": "Tâm lý và kĩ năng sống",
+      "patterns": [
+        "Tâm lý và kĩ năng sống",
+        "Thể loại Tâm lý và kĩ năng sống",
+        "Tôi muốn đọc thể loại Tâm lý và kĩ năng sống",
+        "Tôi thích sách Tâm lý và kĩ năng sống"
+      ],
+      "responses": [
+        "Thể loại bạn thích là Tâm lý và kĩ năng sống",
+        "Thể loại sẽ đề xuất là Tâm lý và kĩ năng sống",
+        "Hệ thống đã ghi nhận thể loại bạn muốn tìm là Tâm lý và kĩ năng sống"]
+    },
+    {
+      "tag": "Nhiều tác giả",
+      "patterns": [
+        "Nhiều tác giả",
+        "Nhiều",
+        "Tác giả là Nhiều tác giả",
+        "Tôi muốn đọc sách của Nhiều tác giả",
+        "Tôi thích sách của Nhiều tác giả"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nhiều tác giả",
+        "Gợi ý sách về Nhiều tác giả",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của Nhiều tác giả"]
+    },
+    {
+      "tag": "Nguyễn Đổng Chi",
+      "patterns": [
+        "Nguyễn Đổng Chi",
+        "Nguyễn Chi",
+        "Đổng Chi",
+        "Tác giả Nguyễn Đổng Chi",
+        "Tôi muốn đọc sách của Nguyễn Đổng Chi",
+        "Tôi thích sách của Nguyễn Đổng Chi"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Đổng Chi",
+        "Gợi ý sách về tác giả Nguyễn Đổng Chi",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Đổng Chi"]
+    },
+    {
+      "tag": "Michael Cox",
+      "patterns": [
+        "Michael Cox",
+        "Michael",
+        "Cox",
+        "Tác giả Michael Cox",
+        "Tôi muốn đọc sách của Michael Cox",
+        "Tôi thích sách của Michael Cox"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Michael Cox",
+        "Gợi ý sách về tác giả Michael Cox",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Michael Cox"]
+    },
+    {
+      "tag": "Lưu Hồng Hà",
+      "patterns": [
+        "Lưu Hồng Hà",
+        "Lưu Hà",
+        "Hồng Hà",
+        "Tác giả Lưu Hồng Hà",
+        "Tôi muốn đọc sách của Lưu Hồng Hà",
+        "Tôi thích sách của Lưu Hồng Hà"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Lưu Hồng Hà",
+        "Gợi ý sách về tác giả Lưu Hồng Hà",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Lưu Hồng Hà"]
+    },
+    {
+      "tag": "Nguyễn Huy Thắng",
+      "patterns": [
+        "Nguyễn Huy Thắng",
+        "Nguyễn Thắng",
+        "Huy Thắng",
+        "Tác giả Nguyễn Huy Thắng",
+        "Tôi muốn đọc sách của Nguyễn Huy Thắng",
+        "Tôi thích sách của Nguyễn Huy Thắng"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Huy Thắng",
+        "Gợi ý sách về tác giả Nguyễn Huy Thắng",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Huy Thắng"]
+    },
+    {
+      "tag": "Hans Christian Andersen",
+      "patterns": [
+        "Hans Christian Andersen",
+        "Christian Andersen",
+        "Andersen",
+        "Tác giả Andersen",
+        "Tôi muốn đọc sách của Andersen",
+        "Tôi thích sách của Andersen"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Hans Christian Andersen",
+        "Gợi ý sách về tác giả Hans Christian Andersen",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Hans Christian Andersen"]
+    },
+    {
+      "tag": "Hans Christian Andersen",
+      "patterns": [
+        "Hans Christian Andersen",
+        "Christian Andersen",
+        "Andersen",
+        "Tác giả Andersen",
+        "Tôi muốn đọc sách của Andersen",
+        "Tôi thích sách của Andersen"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Hans Christian Andersen",
+        "Gợi ý sách về tác giả Hans Christian Andersen",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Hans Christian Andersen"]
+    },
+    {
+      "tag": "Nguyễn Văn Ngọc",
+      "patterns": [
+        "Nguyễn Văn Ngọc",
+        "Nguyễn Ngọc",
+        "Văn Ngọc",
+        "Tác giả Nguyễn Văn Ngọc",
+        "Tôi muốn đọc sách của Nguyễn Văn Ngọc",
+        "Tôi thích sách của Nguyễn Văn Ngọc"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Văn Ngọc",
+        "Gợi ý sách về tác giả Nguyễn Văn Ngọc",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Văn Ngọc"]
+    },
+    {
+      "tag": "Vũ Trọng Phụng",
+      "patterns": [
+        "Vũ Trọng Phụng",
+        "Vũ Phụng",
+        "Trọng Phụng",
+        "Tác giả Vũ Trọng Phụng",
+        "Tôi muốn đọc sách của Vũ Trọng Phụng",
+        "Tôi thích sách của Vũ Trọng Phụng"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Vũ Trọng Phụng",
+        "Gợi ý sách về tác giả Vũ Trọng Phụng",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Vũ Trọng Phụng"]
+    },
+    {
+      "tag": "Tào Tuyết Cần",
+      "patterns": [
+        "Tào Tuyết Cần",
+        "Tào Cần",
+        "Tuyết Cần",
+        "Tác giả Tào Tuyết Cần",
+        "Tôi muốn đọc sách của Tào Tuyết Cần",
+        "Tôi thích sách của Tào Tuyết Cần"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Tào Tuyết Cần",
+        "Gợi ý sách về tác giả Tào Tuyết Cần",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Tào Tuyết Cần"]
+    },
+    {
+      "tag": "Tự lực văn đoàn",
+      "patterns": [
+        "Tự lực văn đoàn",
+        "Tự lực",
+        "Văn đoàn",
+        "Tác giả Tự lực văn đoàn",
+        "Tôi muốn đọc sách của Tự lực văn đoàn",
+        "Tôi thích sách của Tự lực văn đoàn"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Tự lực văn đoàn",
+        "Gợi ý sách về tác giả Tự lực văn đoàn",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Tự lực văn đoàn"]
+    },
+    {
+      "tag": "Nam Cao",
+      "patterns": [
+        "Nam Cao",
+        "Tác giả Nam Cao",
+        "Tôi muốn đọc sách của Nam Cao",
+        "Tôi thích sách của Nam Cao"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nam Cao",
+        "Gợi ý sách về tác giả Nam Cao",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nam Cao"]
+    },
+    {
+      "tag": "Nguyễn Tuân",
+      "patterns": [
+        "Nguyễn Tuân",
+        "Tác giả Nguyễn Tuân",
+        "Tôi muốn đọc sách của Nguyễn Tuân",
+        "Tôi thích sách của Nguyễn Tuân"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Tuân",
+        "Gợi ý sách về tác giả Nguyễn Tuân",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Tuân"]
+    },
+    {
+      "tag": "Tiểu Quỳnh",
+      "patterns": [
+        "Tiểu Quỳnh",
+        "Tác giả Tiểu Quỳnh",
+        "Tôi muốn đọc sách của Tiểu Quỳnh",
+        "Tôi thích sách của Tiểu Quỳnh"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Tiểu Quỳnh",
+        "Gợi ý sách về tác giả Tiểu Quỳnh",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Tiểu Quỳnh"]
+    },
+    {
+      "tag": "Nhật Nguyên",
+      "patterns": [
+        "Nhật Nguyên",
+        "Tác giả Nhật Nguyên",
+        "Tôi muốn đọc sách của Nhật Nguyên",
+        "Tôi thích sách của Nhật Nguyên"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nhật Nguyên",
+        "Gợi ý sách về tác giả Nhật Nguyên",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nhật Nguyên"]
+    },
+    {
+      "tag": "Lâm Hoa Phụng",
+      "patterns": [
+        "Lâm Hoa Phụng",
+        "Lâm Phụng",
+        "Hoa Phụng",
+        "Tác giả Lâm Hoa Phụng",
+        "Tôi muốn đọc sách của Lâm Hoa Phụng",
+        "Tôi thích sách của Lâm Hoa Phụng"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Lâm Hoa Phụng",
+        "Gợi ý sách về tác giả Lâm Hoa Phụng",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Lâm Hoa Phụng"]
+    },
+    {
+      "tag": "Nguyễn Quang Hoàng",
+      "patterns": [
+        "Nguyễn Quang Hoàng",
+        "Nguyễn Hoàng",
+        "Quang Hoàng",
+        "Tác giả Nguyễn Quang Hoàng",
+        "Tôi muốn đọc sách của Nguyễn Quang Hoàng",
+        "Tôi thích sách của Nguyễn Quang Hoàng"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Quang Hoàng",
+        "Gợi ý sách về tác giả Nguyễn Quang Hoàng",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Quang Hoàng"]
+    },
+    {
+      "tag": "codeGym",
+      "patterns": [
+        "codeGym",
+        "Tác giả codeGym",
+        "Tôi muốn đọc sách của codeGym",
+        "Tôi thích sách của codeGym"
+      ],
+      "responses": [
+        "Tác giả bạn thích là codeGym",
+        "Gợi ý sách về tác giả codeGym",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả codeGym"]
+    },
+    {
+      "tag": "Nguyễn Như Hiển",
+      "patterns": [
+        "Nguyễn Như Hiển",
+        "Nguyễn Hiển",
+        "Như Hiển",
+        "Tác giả Nguyễn Như Hiển",
+        "Tôi muốn đọc sách của Nguyễn Như Hiển",
+        "Tôi thích sách của Nguyễn Như Hiển"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Như Hiển",
+        "Gợi ý sách về tác giả Nguyễn Như Hiển",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Như Hiển"]
+    },
+    {
+      "tag": "Phạm Khánh Tùng",
+      "patterns": [
+        "Phạm Khánh Tùng",
+        "Phạm Tùng",
+        "Khánh Tùng",
+        "Tác giả Phạm Khánh Tùng",
+        "Tôi muốn đọc sách của Phạm Khánh Tùng",
+        "Tôi thích sách của Phạm Khánh Tùng"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Phạm Khánh Tùng",
+        "Gợi ý sách về tác giả Phạm Khánh Tùng",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Phạm Khánh Tùng"]
+    },
+    {
+      "tag": "Minh Thư",
+      "patterns": [
+        "Minh Thư",
+        "Tác giả Minh Thư",
+        "Tôi muốn đọc sách của Minh Thư",
+        "Tôi thích sách của Minh Thư"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Minh Thư",
+        "Gợi ý sách về tác giả Minh Thư",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Minh Thư"]
+    },
+    {
+      "tag": "Bando Mariko",
+      "patterns": [
+        "Bando Mariko",
+        "Bando",
+        "Mariko",
+        "Tôi muốn đọc sách của Bando Mariko",
+        "Tôi thích sách của Bando Mariko"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Bando Mariko",
+        "Gợi ý sách về tác giả Bando Mariko",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Bando Mariko"]
+    },
+    {
+      "tag": "Nguyễn Công Hoan",
+      "patterns": [
+        "Nguyễn Công Hoan",
+        "Nguyễn Hoan",
+        "Công Hoan",
+        "Tôi muốn đọc sách của Nguyễn Công Hoan",
+        "Tôi thích sách của Nguyễn Công Hoan"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Nguyễn Công Hoan",
+        "Gợi ý sách về tác giả Nguyễn Công Hoan",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Nguyễn Công Hoan"]
+    },
+    {
+      "tag": "Thu Giang",
+      "patterns": [
+        "Thu Giang",
+        "Tôi muốn đọc sách của Thu Giang",
+        "Tôi thích sách của Thu Giang"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Thu Giang",
+        "Gợi ý sách về tác giả Thu Giang",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Thu Giang"]
+    },
+    {
+      "tag": "Thanh Tử",
+      "patterns": [
+        "Thanh Tử",
+        "Tôi muốn đọc sách của Thanh Tử",
+        "Tôi thích sách của Thanh Tử"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Thanh Tử",
+        "Gợi ý sách về tác giả Thanh Tử",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Thanh Tử"]
+    },
+    {
+      "tag": "Đường Gia Tam Thiếu",
+      "patterns": [
+        "Đường Gia Tam Thiếu",
+        "Đường Gia",
+        "Tam Thiếu",
+        "Tôi muốn đọc sách của Đường Gia Tam Thiếu",
+        "Tôi thích sách của Đường Gia Tam Thiếu"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Đường Gia Tam Thiếu",
+        "Gợi ý sách về tác giả Đường Gia Tam Thiếu",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Đường Gia Tam Thiếu"]
+    },
+    {
+      "tag": "Thiên Tằm Thổ Đấu",
+      "patterns": [
+        "Thiên Tằm Thổ Đấu",
+        "Thiên Tằm",
+        "Thổ Đấu",
+        "Tôi muốn đọc sách của Thiên Tằm Thổ Đấu",
+        "Tôi thích sách của Thiên Tằm Thổ Đấu"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Thiên Tằm Thổ Đấu",
+        "Gợi ý sách về tác giả Thiên Tằm Thổ Đấu",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Thiên Tằm Thổ Đấu"]
+    },
+    {
+      "tag": "Tạ Minh Tuấn",
+      "patterns": [
+        "Tạ Minh Tuấn",
+        "Tạ Tuấn",
+        "Minh Tuấn",
+        "Tôi muốn đọc sách của Tạ Minh Tuấn",
+        "Tôi thích sách của Tạ Minh Tuấn"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Tạ Minh Tuấn",
+        "Gợi ý sách về tác giả Tạ Minh Tuấn",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Tạ Minh Tuấn"]
+    },
+    {
+      "tag": "Quái Đàm Hiệp Hội",
+      "patterns": [
+        "Quái Đàm Hiệp Hội",
+        "Quái Đàm",
+        "Tôi muốn đọc sách của Quái Đàm Hiệp Hội",
+        "Tôi thích sách của Quái Đàm Hiệp Hội"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Quái Đàm Hiệp Hội",
+        "Gợi ý sách về tác giả Quái Đàm Hiệp Hội",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Quái Đàm Hiệp Hội"]
+    },
+    {
+      "tag": "Gloria Ericson",
+      "patterns": [
+        "Gloria Ericson",
+        "Gloria",
+        "Ericson",
+        "Tôi muốn đọc sách của Ericson",
+        "Tôi thích sách của Ericson"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Gloria Ericson",
+        "Gợi ý sách về tác giả Gloria Ericson",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Gloria Ericson"]
+    },
+    {
+      "tag": "Tống Mạt Than",
+      "patterns": [
+        "Tống Mạt Than",
+        "Mạt Than",
+        "Tôi muốn đọc sách của Tống Mạt Than",
+        "Tôi thích sách của Tống Mạt Than"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Tống Mạt Than",
+        "Gợi ý sách về tác giả Tống Mạt Than",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Tống Mạt Than"]
+    },
+    {
+      "tag": "Stine",
+      "patterns": [
+        "Stine",
+        "Tôi muốn đọc sách của Stine",
+        "Tôi thích sách của Stine"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Stine",
+        "Gợi ý sách về tác giả Stine",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Stine"]
+    },
+    {
+      "tag": "Tiêu Phong",
+      "patterns": [
+        "Tiêu Phong",
+        "Tôi muốn đọc sách của Tiêu Phong",
+        "Tôi thích sách của Tiêu Phong"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Tiêu Phong",
+        "Gợi ý sách về tác giả Tiêu Phong",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Tiêu Phong"]
+    },
+    {
+      "tag": "Trần Viên Viên",
+      "patterns": [
+        "Trần Viên Viên",
+        "Trần Viên",
+        "Viên Viên",
+        "Tôi muốn đọc sách của Trần Viên Viên",
+        "Tôi thích sách của Trần Viên Viên"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Trần Viên Viên",
+        "Gợi ý sách về tác giả Trần Viên Viên",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Trần Viên Viên"]
+    },
+    {
+      "tag": "Phùng Quán",
+      "patterns": [
+        "Phùng Quán",
+        "Tôi muốn đọc sách của Phùng Quán",
+        "Tôi thích sách của Phùng Quán"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Phùng Quán",
+        "Gợi ý sách về tác giả Phùng Quán",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Phùng Quán"]
+    },
+    {
+      "tag": "Lê Hồng Nguyên",
+      "patterns": [
+        "Lê Hồng Nguyên",
+        "Lê Nguyên",
+        "Hồng Nguyên",
+        "Tôi muốn đọc sách của Lê Hồng Nguyên",
+        "Tôi thích sách của Lê Hồng Nguyên"
+      ],
+      "responses": [
+        "Tác giả bạn thích là Lê Hồng Nguyên",
+        "Gợi ý sách về tác giả Lê Hồng Nguyên",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của tác giả Lê Hồng Nguyên"]
+    },
+    {
+      "tag": "Việt Nam",
+      "patterns": [
+        "Việt Nam",
+        "Vietnamese",
+        "Việt",
+        "Trong nước",
+        "Tôi muốn gợi ý sách trong nước",
+        "Tôi thích đọc sách Việt Nam"
+      ],
+      "responses": [
+        "Bạn muốn đọc sách Việt Nam",
+        "Gợi ý sách của nước Việt Nam",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của nước Việt Nam"]
+    },
+    {
+      "tag": "Nước ngoài",
+      "patterns": [
+        "Nước ngoài",
+        "Ngoài nước",
+        "Nước khác",
+        "Tôi muốn gợi ý sách nước ngoài",
+        "Tôi thích đọc sách nước ngoài"
+      ],
+      "responses": [
+        "Bạn muốn đọc sách Nước ngoài",
+        "Gợi ý sách của Nước ngoài",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách của Nước ngoài"]
+    },
+    {
+      "tag": "Cổ điển",
+      "patterns": [
+        "Cổ điển",
+        "Tôi muốn gợi ý sách Cổ điển",
+        "Tôi thích đọc sách Cổ điển",
+        "Tôi cần sách Cổ điển"
+      ],
+      "responses": [
+        "Bạn muốn đọc sách Cổ điển",
+        "Gợi ý sách xu hướng Cổ điển",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách có xu hướng Cổ điển"]
+    },
+    {
+      "tag": "Hiện đại",
+      "patterns": [
+        "Hiện đại",
+        "Tôi muốn gợi ý sách Hiện đại",
+        "Tôi thích đọc sách Hiện đại",
+        "Tôi cần sách Hiện đại"
+      ],
+      "responses": [
+        "Bạn muốn đọc sách Hiện đại",
+        "Gợi ý sách xu hướng Hiện đại",
+        "Hệ thống đã ghi nhận bạn muốn đọc sách có xu hướng Hiện đại"]
+    },
+    {
+      "tag": "Học hỏi",
+      "patterns": [
+        "Học hỏi",
+        "Mục đích là Học hỏi",
+        "Tôi muốn đọc sách để Học hỏi",
+        "Học hỏi từ sách",
+        "Học hỏi nhiều điều từ sách"
+      ],
+      "responses": [
+        "Mục đích đọc sách của bạn là để Học hỏi",
+        "Gợi ý những sách có giúp bạn Học hỏi",
+        "Hệ thống đã ghi nhận mục đích đọc sách của bạn là để Học hỏi"
+      ]
+    },
+    {
+      "tag": "Giải trí",
+      "patterns": [
+        "Giải trí",
+        "Mục đích là Giải trí",
+        "Tôi muốn đọc sách để Giải trí",
+        "Đọc sách để Giải trí",
+        "Giải trí khi đọc sách"
+      ],
+      "responses": [
+        "Mục đích đọc sách của bạn là để Giải trí",
+        "Gợi ý những sách có giúp bạn Giải trí",
+        "Hệ thống đã ghi nhận mục đích đọc sách của bạn là để Giải trí"
+      ]
+    },
+    {
+      "tag": "Tạo cảm hứng",
+      "patterns": [
+        "Tạo cảm hứng",
+        "Cảm hứng",
+        "Tạo cảm hứng và động lực",
+        "Tôi muốn đọc sách để Tạo cảm hứng",
+        "Đọc sách để Tạo cảm hứng",
+        "Tạo cảm hứng sau khi đọc sách"
+      ],
+      "responses": [
+        "Mục đích đọc sách của bạn là để Tạo cảm hứng",
+        "Gợi ý những sách có giúp bạn Tạo cảm hứng",
+        "Hệ thống đã ghi nhận mục đích đọc sách của bạn là để Tạo cảm hứng"
+      ]
+    },
+    {
+      "tag": "Những câu chuyện cổ tích",
+      "patterns": [
+        "Những câu chuyện cổ tích",
+        "Chuyện cổ tích",
+        "Nội dung sách về Những câu chuyện cổ tích",
+        "Gợi ý sách có nội dung về Những câu chuyện cổ tích",
+        "Sách về Những câu chuyện cổ tích",
+        "Nội dung về Những câu chuyện cổ tích"
+      ],
+      "responses": [
+        "Nội dung sách về Những câu chuyện cổ tích",
+        "Gợi ý những sách có nội dung tương tự Những câu chuyện cổ tích",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Những câu chuyện cổ tích"
+      ]
+    },
+    {
+      "tag": "Chiến đấu mạnh mẽ",
+      "patterns": [
+        "Chiến đấu mạnh mẽ",
+        "Chiến đấu",
+        "Mạnh mẽ",
+        "Nội dung sách về Chiến đấu mạnh mẽ",
+        "Gợi ý sách có nội dung về Chiến đấu mạnh mẽ",
+        "Sách về Chiến đấu mạnh mẽ",
+        "Nội dung về Chiến đấu mạnh mẽ"
+      ],
+      "responses": [
+        "Nội dung sách về Chiến đấu mạnh mẽ",
+        "Gợi ý những sách có nội dung tương tự Chiến đấu mạnh mẽ",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Chiến đấu mạnh mẽ"
+      ]
+    },
+    {
+      "tag": "Học cách nấu nướng",
+      "patterns": [
+        "Học cách nấu nướng",
+        "Nấu nướng",
+        "Nội dung sách về Học cách nấu nướng",
+        "Gợi ý sách có nội dung về Học cách nấu nướng",
+        "Sách về Học cách nấu nướng",
+        "Nội dung về Học cách nấu nướng"
+      ],
+      "responses": [
+        "Nội dung sách về Học cách nấu nướng",
+        "Gợi ý những sách có nội dung tương tự Học cách nấu nướng",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Học cách nấu nướng"
+      ]
+    },
+    {
+      "tag": "Vẻ đẹp của đời sống",
+      "patterns": [
+        "Vẻ đẹp của đời sống",
+        "Đời sống",
+        "Nội dung sách về Vẻ đẹp của đời sống",
+        "Gợi ý sách có nội dung về Vẻ đẹp của đời sống",
+        "Sách về Vẻ đẹp của đời sống",
+        "Nội dung về Vẻ đẹp của đời sống"
+      ],
+      "responses": [
+        "Nội dung sách về Vẻ đẹp của đời sống",
+        "Gợi ý những sách có nội dung tương tự Vẻ đẹp của đời sống",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Vẻ đẹp của đời sống"
+      ]
+    },
+    {
+      "tag": "Nghệ thuật trong văn chương",
+      "patterns": [
+        "Nghệ thuật trong văn chương",
+        "Nghệ thuật",
+        "Nội dung sách về Nghệ thuật trong văn chương",
+        "Gợi ý sách có nội dung về Nghệ thuật trong văn chương",
+        "Sách về Nghệ thuật trong văn chương",
+        "Nội dung về Nghệ thuật trong văn chương"
+      ],
+      "responses": [
+        "Nội dung sách về Nghệ thuật trong văn chương",
+        "Gợi ý những sách có nội dung tương tự Nghệ thuật trong văn chương",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Nghệ thuật trong văn chương"
+      ]
+    },
+    {
+      "tag": "Châm biếm xã hội",
+      "patterns": [
+        "Châm biếm xã hội",
+        "Châm biếm",
+        "Nội dung sách về Châm biếm xã hội",
+        "Gợi ý sách có nội dung về Châm biếm xã hội",
+        "Sách về Châm biếm xã hội",
+        "Nội dung về Châm biếm xã hội"
+      ],
+      "responses": [
+        "Nội dung sách về Châm biếm xã hội",
+        "Gợi ý những sách có nội dung tương tự Châm biếm xã hội",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Châm biếm xã hội"
+      ]
+    },
+    {
+      "tag": "Tình yêu đôi lứa",
+      "patterns": [
+        "Tình yêu đôi lứa",
+        "Tình yêu",
+        "Tình cảm",
+        "Nội dung sách về Tình yêu đôi lứa",
+        "Gợi ý sách có nội dung về Tình yêu đôi lứa",
+        "Sách về Tình yêu đôi lứa",
+        "Nội dung về Tình yêu đôi lứa"
+      ],
+      "responses": [
+        "Nội dung sách về Tình yêu đôi lứa",
+        "Gợi ý những sách có nội dung tương tự Tình yêu đôi lứa",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Tình yêu đôi lứa"
+      ]
+    },
+    {
+      "tag": "Thưởng thức ẩm thực",
+      "patterns": [
+        "Thưởng thức ẩm thực",
+        "Thưởng thức",
+        "Ẩm thực",
+        "Nội dung sách về Thưởng thức ẩm thực",
+        "Gợi ý sách có nội dung về Thưởng thức ẩm thực",
+        "Sách về Thưởng thức ẩm thực",
+        "Nội dung về Thưởng thức ẩm thực"
+      ],
+      "responses": [
+        "Nội dung sách về Tình yêu đôi lứa",
+        "Gợi ý những sách có nội dung tương tự Tình yêu đôi lứa",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Tình yêu đôi lứa"
+      ]
+    },
+    {
+      "tag": "Tìm hiểu kiến thức",
+      "patterns": [
+        "Tìm hiểu kiến thức",
+        "Tìm hiểu",
+        "Kiến thức",
+        "Nội dung sách về Tìm hiểu kiến thức",
+        "Gợi ý sách có nội dung về Tìm hiểu kiến thức",
+        "Sách về Tìm hiểu kiến thức",
+        "Nội dung về Tìm hiểu kiến thức"
+      ],
+      "responses": [
+        "Nội dung sách về Tìm hiểu kiến thức",
+        "Gợi ý những sách có nội dung tương tự Tìm hiểu kiến thức",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Tìm hiểu kiến thức"
+      ]
+    },
+    {
+      "tag": "Học kiến thức lập trình",
+      "patterns": [
+        "Học kiến thức lập trình",
+        "Kiến thức lập trình",
+        "Lập trình",
+        "Nội dung sách về Học kiến thức lập trình",
+        "Gợi ý sách có nội dung về Học kiến thức lập trình",
+        "Sách về Học kiến thức lập trình",
+        "Nội dung về Học kiến thức lập trình"
+      ],
+      "responses": [
+        "Nội dung sách về Học kiến thức lập trình",
+        "Gợi ý những sách có nội dung tương tự Học kiến thức lập trình",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Học kiến thức lập trình"
+      ]
+    },
+    {
+      "tag": "Phiêu lưu mạo hiểm",
+      "patterns": [
+        "Phiêu lưu mạo hiểm",
+        "Phiêu lưu",
+        "Mạo hiểm",
+        "Nội dung sách về Phiêu lưu mạo hiểm",
+        "Gợi ý sách có nội dung về Phiêu lưu mạo hiểm",
+        "Sách về Phiêu lưu mạo hiểm",
+        "Nội dung về Phiêu lưu mạo hiểm"
+      ],
+      "responses": [
+        "Nội dung sách về Phiêu lưu mạo hiểm",
+        "Gợi ý những sách có nội dung tương tự Phiêu lưu mạo hiểm",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Phiêu lưu mạo hiểm"
+      ]
+    },
+    {
+      "tag": "Kinh dị ám ảnh",
+      "patterns": [
+        "Kinh dị ám ảnh",
+        "Kinh dị",
+        "Ám ảnh",
+        "Nội dung sách về Kinh dị ám ảnh",
+        "Gợi ý sách có nội dung về Kinh dị ám ảnh",
+        "Sách về Kinh dị ám ảnh",
+        "Nội dung về Kinh dị ám ảnh"
+      ],
+      "responses": [
+        "Nội dung sách về Kinh dị ám ảnh",
+        "Gợi ý những sách có nội dung tương tự Kinh dị ám ảnh",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Kinh dị ám ảnh"
+      ]
+    },
+    {
+      "tag": "Kinh dị ám ảnh",
+      "patterns": [
+        "Kinh dị ám ảnh",
+        "Kinh dị",
+        "Ám ảnh",
+        "Nội dung sách về Kinh dị ám ảnh",
+        "Gợi ý sách có nội dung về Kinh dị ám ảnh",
+        "Sách về Kinh dị ám ảnh",
+        "Nội dung về Kinh dị ám ảnh"
+      ],
+      "responses": [
+        "Nội dung sách về Kinh dị ám ảnh",
+        "Gợi ý những sách có nội dung tương tự Kinh dị ám ảnh",
+        "Hệ thống đã ghi nhận nội dung sách bạn tìm về Kinh dị ám ảnh"
+      ]
+    }
+  ]
+}

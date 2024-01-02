@@ -1,0 +1,61 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "hoat hinh",
+            "patterns": [
+                "Doraemon",
+                "Conan"
+            ],
+            "responses": [
+                "yes sirrr",
+                "Ohhh noooo"
+            ]
+        },
+        {
+            "tag": "Thieu nhi",
+            "patterns": [
+                "Thieu nhi",
+                "Toi muon tim sach ve Thieu nhi",
+                "The loai Thieu nhi",
+                "Goi y sach ve Thieu nhi"
+            ],
+            "responses": [
+                "De men phieu luu ki",
+                "Tuoi tho du doi",
+                "Hoang tu be",
+                "Tam the"
+            ]
+        },
+        {
+            "tag": "Tam ly",
+            "patterns": [
+                "Tam ly",
+                "Toi muon tim sach ve Tam ly",
+                "The loai Tam ly",
+                "Goi y sach ve Tam ly"
+            ],
+            "responses": [
+                "Goi y cua chung toi ve Tam ly : Hoang tu be, De men phieu luu ki, Tam the",
+                "Mot so sach thuoc the loai Tam ly : De men phieu luu ki, Hoang tu be, Tuoi tho du doi",
+                "Nhung cuon sach Tam ly co the ban se thich: Hoang tu be, Tuoi tho du doi, Tam the"
+            ]
+        }
+    ]
+}
